@@ -1,0 +1,391 @@
+@media(max-width: 768px){
+
+    body{
+        max-width: 768px;
+        overflow-x: hidden;
+    }
+
+    .main-header{
+        height: 30px;
+        padding: 0 20px;
+    }
+
+    .main-header img{
+        width: 150px;
+        margin-top: 18px;
+    }
+
+    .nav-bar ul{
+        font-size: 1.2rem;
+    }
+    
+    .showcase-1{
+         
+        max-width: 768px;
+    }
+
+    .content{
+        font-size: 20px;
+    }
+
+    .custom-shape-divider-top-1697890948 svg{
+        height: 100px;
+    }
+
+    .bio {
+        padding: 20px;
+    }
+    .bio h2{
+        font-size: 20px
+    }
+    .bio p{
+        font-size: 15px;
+    }
+    #what-we-do{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .tn{
+        line-height: 1.3em;
+    }
+    .tn span {
+        font-size: 1.6rem;
+    }
+
+    .tn p{
+        font-size: 1.4rem;
+    }
+    
+    #showcase-2 h3{
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+
+    .skills{
+        grid-template-columns: repeat(1,300px);
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        width: auto;
+    }
+
+    .skill{
+        height: 75%;
+    }
+    .skill h2{
+        font-size: 1.3rem;
+        margin-top: 20px;
+    }
+
+    #portfolio{
+        line-height: 1.3rem;
+    }
+
+    #portfolio h1{
+        font-size: 1.4rem;
+    }  
+    
+    .works{
+        grid-template-columns: repeat(1,352px);
+        justify-content: center;
+        height: 90%;
+        margin-top: 0px;
+        grid-gap: 20px;
+        overflow-x: inherit;
+    }
+
+    .work .text{
+        margin-top: 10px;
+    }
+
+    .work .joel{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .work .yonas{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .work .yemaru{
+        height: 80px;
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    .work button{
+        margin-bottom: 10px;
+    }
+
+    .testimonial{
+        line-height: 1.3rem;
+        font-weight: 500;
+
+    }
+    .testimonial h2{
+        line-height: 1.5rem;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+     
+    .client{
+        width: 100%;
+        margin-right: -30px;
+    }
+
+    #contact-us{
+        gap: 25px;
+        justify-content: center;
+    }
+
+    form{
+        justify-content: center;
+        height: 50%;
+    }
+    form h1{
+        text-transform: capitalize;
+        font-weight: 350;
+        color: var(--white);
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    form input, form textarea{
+        border: 0;
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    form button{
+        padding: 6px;
+        font-size: 12px;
+        width: 80px;
+        margin: 10px auto 0;
+    }
+
+    footer{
+        height: 5%;
+        padding: 20px;
+    }
+
+    footer h2, footer p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 425px){
+    .main-header{
+        display: none;
+    }
+    .showcase-1{
+        max-width: 425px;
+    }
+
+    .tn span{
+        font-size: 1.4rem
+    }
+
+    .tn p{
+        font-size: 1.2rem;
+    }
+
+    .skill{
+        height:100%;
+    }
+    .skill h2{
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    #showcase-2 h3{
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+
+    .skills{
+        margin-top: -30px;
+        grid-gap: 10px;
+    }
+
+    .skill h2{
+       font-size: 1.2rem; 
+    }
+    .skill P{
+        font-size: 6PX
+    }
+    .testimonial{
+        line-height:  1;
+    }
+     
+    .testimonial h2{
+        font-size: 1.6rem;
+    }
+    .clients{
+        grid-template-columns: repeat(1,352px);
+        margin: 0 ;
+        grid-gap: 10px;
+        height: 100%;
+    }
+    .client{
+        margin-top: 5px;
+    }
+    
+    form{
+        justify-content: center;
+    }
+
+    footer{
+        height: 1%;
+        padding: 20px;
+    }
+}
+
+@media(max-width: 375px){
+    .main-header{
+        display: none;
+    }
+    .video-container{
+        height: 574px;
+        width: 375px;
+    }
+    .showcase-1 .content h1{
+        font-size: 20px;
+    }
+    .custom-shape-divider-top-1697890948 svg{
+        height: 40px;
+    }
+    #showcase-2{
+        line-height: 1.5;
+    }
+    .bio{
+        padding: 5px;
+    }
+    .bio h2{
+        margin-top: 25px;
+        padding: 5px;
+    }
+    .bio p{
+        font-size: 15px;
+    }
+    #what-we-do{
+        gap: 20px;
+    }
+    #showcase-2 h3{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+     
+    .tn span{
+        font-size: 1.2rem
+    }
+
+    .tn p{
+        font-size: 1rem;
+    }
+    .skills{
+        grid-gap: 20px;
+    }
+    .skill  {
+         margin-top: 10px;
+    }
+     .skill h2{
+        font-size: 16px
+    }
+    .skill p{
+        margin-top: -10px;
+        font-size: 12px;
+    }
+
+    .testimonial{
+        line-height: 1.2;
+        height: 180vh;
+    }
+    .testimonial h2{
+        font-size: 20px;
+    }
+    .clients{
+        grid-template-columns: repeat(1,352px);
+        margin: 0 ;
+        grid-gap: 5px;
+        height: 100%;
+        width: 320px;
+    }
+    .client{
+        padding-top: 20px;
+        margin-top: -30px;
+        height: 150px;
+        font-size: 12px;
+    }
+    footer{
+        height: 2%;
+        padding: 20px;
+    }
+
+    footer h2, footer p{
+        font-size: 1rem;
+    }
+}
+ @media(max-width:320px){
+    body{
+      width: 320px;
+    }
+    .video-container{
+        height: 574px;
+        width: 320px;
+    }
+    .custom-shape-divider-top-1697890948 svg{
+        width: 320px;
+    }
+    #portfolio{
+        line-height: 1.2;
+        width: 320px;
+    }
+    #portfolio h1{
+        font-size: 1rem;
+    } 
+
+    .works{
+        width: 320px;
+    }
+    .work{
+        width: 80%;
+        height: 150px;
+    }
+    .work .text{ 
+        font-size: 18px;
+    }
+    .work .joel{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 5px;
+    }
+     
+
+    .work .yonas{
+        height: 50px;
+        width: 50px;
+        margin-bottom:5px;
+        border-radius: 0;
+        object-fit: contain;
+    }
+
+    .work .yemaru{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 5px;
+    }
+    .work button{
+        margin-top: 5px;
+    }
+    .clients{
+        width: 320px;
+    }
+    .client{
+        width: 80%;
+    }
+ }
+
